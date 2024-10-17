@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+body{
+    background-color: rgb(149, 197, 240);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div ul{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    list-style: none;
+    height: 40px;
+    color: white;
+    background-color:black;
+    align-items: center;
+}
+div ul li{
+    padding-left: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.logo img{
+    padding:0 2px;
+}
+.cont{
+    min-height: 64vh;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    width: 90%;
+    margin: 23px auto;
+    border-radius: 23px;
+    background-image: url('HD-wallpaper-liquifying-thoughts-listening-music-girl-color-mysterious-abstract.jpg');
+}
+
+.bottom{
+    position:sticky;
+    height: 120px;
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 23px;
+}
+#myprogressbar{
+    width: 700px;
+    cursor: pointer;
+}
+.icons i{
+    cursor: pointer;
+}
+.timespend i{
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    color: black;
+    align-items: center;
+    border-radius: 23px;
+}
+.timespend{
+    margin: 0 23px;
+}
+.songitem img{
+    border-radius:23px
+}
+.songinfo{
+    position: absolute;
+    left: 17vw;
+}
+.songinfo img{
+    opacity: 0.5;
+    transition: opacity 1s ease-in;
+}
