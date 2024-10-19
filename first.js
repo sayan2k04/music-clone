@@ -83,6 +83,7 @@ document.getElementById('next').addEventListener('click', () => {
     play.classList.add('fa-pause-circle');
 });
 
+
 document.getElementById('previous').addEventListener('click', () => {
     if (songindex <= 0) {
         songindex = 7;  // Reset to the last song
